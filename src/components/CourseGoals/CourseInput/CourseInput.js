@@ -21,7 +21,7 @@ const CourseInput = props => {
       return;
     }
     props.onAddGoal(enteredValue);
-  };
+  }; 
 
   return (
     <form onSubmit={formSubmitHandler}>
